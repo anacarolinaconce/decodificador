@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(beige,white);
+}
+
+.principal{
+    display: flex;
+    margin: 6%;
+    gap: 10px;
+}
+
+#input-entrada{
+    width: 43,75%;
+    height: 300px;
+    top: 40px;
+    left: 950px;
+    border: 2px;
+    font-size: 50px;
+    background: transparent;
+    resize: none;
+    color: black;
+    outline: 0;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    margin: 0,3%;
+    padding: 3px;
+    margin-top: 10%;
+}
+
+.button{
+    font-family: "Merriweather", serif;
+    background-color: beige;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 32px;
+    box-shadow: 10px 10px 5px lightgray;
+    margin: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+button:hover{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.2);
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+
+ #input-texto:focus::-webkit-input-placeholder {
+     color: bisque;
+}
+.resultado{
+    flex-direction: center;
+}
+.caixa__resultado{
+    align-content: center;
+    text-align: center;
+    background: transparent;
+    width: 400px;
+    height: 300px;
+    top: 40px;
+    left: 1000px;
+    border: 3px solid white;
+    border-radius: 32px;
+    margin-right: 5%; 
+    padding: 50px;   
+    box-shadow:  5px 5px 5px 5px rgb(129, 116, 116);
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    text-overflow: clip;
+    overflow-y: auto;
+    word-wrap: break-word;    
+}
+.aviso{
+    font-family: "Merriweather", serif;
+    color: rgb(236, 69, 69); 
+    text-align: center;
+ }
+
+ 
+.orientacao{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    
+ }
+.recado{
+    font-family: "Merriweather", serif;
+    padding: 20px;
+    font-size: 12px;
+    color: black;
+    
+ }
+
+#botCopiar{
+    display: none;
+    font-family: "Merriweather", serif;
+    background-color: beige;
+    border: none;
+    padding: 20px 90px;
+    border-radius: 32px;
+    box-shadow: 10px 10px 5px lightgray;
+    margin: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-weight: 400;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(236, 69, 69);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+   
+}
+
+ img{
+    width: 130px;
+    height: 130px;
+    padding: 20px;    
+ }

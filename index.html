@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <main class="principal">
+        <section class="caixa__entrada">
+            <textarea id="input-entrada" placeholder="Digite seu texto aqui."></textarea>
+            <p class="recado">ATENÇÃO: Apenas letras minúsculas e sem acento</p>
+            <div class="botPrincipais">
+                <button onclick="Criptografar()" class="button">Criptografar</button>
+                <button onclick="Descriptografar()" class="button">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="resultado">
+            <div class="caixa__resultado" id="Caixa-resultado">
+                <img src="./assets/img.png" alt="Imagem de resultado">
+                <h2 class="aviso">Nenhuma Mensagem encontrada!</h2>
+                <p class="orientacao">Digite um texto que deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="copiar">
+                <button id="botCopiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="orientacao">
+        Criado por: Ana Carolina Oliveira Conceição.
+    </footer>
+
+    <script src="cod.js" defer></script>
+</body>
+
+</html>
