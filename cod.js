@@ -46,6 +46,7 @@ function Descriptografar() {
     } else {
             CaixaResultado.textContent = RetornoDescriptografia;
             CaixaEntrada.value = ''; 
+            botao.style.display= "block";
         }
     botao.addEventListener('click', copiar);
 }
